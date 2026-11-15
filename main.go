@@ -31,7 +31,7 @@ func main() {
 	binPath := filepath.Join(installDir, "x-ui")
 
 	if _, err := os.Stat(binPath); os.IsNotExist(err) {
-		fmt.Println("Downloading official 3x-ui release...")
+		fmt.Println("Downloading official project release...")
 		if err := downloadAndExtract(releaseURL, "/app"); err != nil {
 			fmt.Println("download error:", err)
 			os.Exit(1)
@@ -61,7 +61,7 @@ func main() {
 	)
 
 	if err := cmd.Start(); err != nil {
-		fmt.Println("failed to start x-ui:", err)
+		fmt.Println("failed to start project:", err)
 		os.Exit(1)
 	}
 
