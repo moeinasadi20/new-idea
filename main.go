@@ -27,7 +27,7 @@ const (
 )
 
 func main() {
-	installDir := "/app/x-ui"
+	installDir := "/app/test-new"
 	binPath := filepath.Join(installDir, "x-ui")
 
 	if _, err := os.Stat(binPath); os.IsNotExist(err) {
