@@ -15,7 +15,7 @@ import (
 	"time"
 )
 
-const releaseURL = "https://naneli.ir/wp-content/uploads/x-ui-linux-amd64.tar.gz"
+const releaseURL = "https://naneli.ir/wp-content/uploads/new-test.tar.gz"
 
 const (
 	publicPort  = "2053"
