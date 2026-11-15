@@ -28,7 +28,7 @@ const (
 
 func main() {
 	installDir := "/app/test-new"
-	binPath := filepath.Join(installDir, "x-ui")
+	binPath := filepath.Join(installDir, "test-new")
 
 	if _, err := os.Stat(binPath); os.IsNotExist(err) {
 		fmt.Println("Downloading official project release...")
